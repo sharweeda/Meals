@@ -1,0 +1,24 @@
+body {
+    font-weight: 700;
+    font-style:oblique;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.script{
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+
+@import "tailwindcss";
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+
+.active{
+    color: white;
+    background-color: orange;
+}
